@@ -1,11 +1,19 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-full.svg"
-    >
-  </q-page>
+  <div class="q-pa-md">
+
+    <div class="row">
+      <div class="col">
+        .col
+      </div>
+      <div class="col">
+        hi
+      </div>
+    </div>
+
+  </div>
 </template>
+
+
 
 <script>
 export default {
