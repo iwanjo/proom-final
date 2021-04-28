@@ -113,9 +113,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: `Proom Web Development Courses`,
-        short_name: `Proom Web Development Courses`,
-        description: `Proom is a Quasar Framework app that lets you study different areas of web design conveniently.`,
+        name: `Proom Web Design Courses`,
+        short_name: `Proom Web Design Courses`,
+        description: `Proom is your all in one solution for accessing any and all courses on web design.`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
