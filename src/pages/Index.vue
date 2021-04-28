@@ -157,7 +157,7 @@ export default {
   display: inline;
   padding: 1px 24px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 15.2px;
   color: #001A26;
   cursor: pointer;
   
