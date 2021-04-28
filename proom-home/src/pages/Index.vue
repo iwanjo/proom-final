@@ -3,6 +3,7 @@
 
     <div class="row">
       <div class="col">
+           .col
            
            
       </div>
@@ -27,17 +28,19 @@
             >
           <!-- class="bg-red text-white shadow-1 rounded-borders" -->
               <q-carousel-slide name="style" class="column no-wrap flex-center">
-                <q-icon name="style" size="56px" />
+                <q-img :src="wireframeImg" class="iconImg" alt="Pencil, Pen and Erasers Icon">
+                  </q-img>
                   
               </q-carousel-slide>
                 
                 <q-carousel-slide name="tv" class="column no-wrap flex-center">
-                  <q-img :src="image" class="iconImg">
+                  <q-img :src="image" class="iconImg" alt="Pencil, Pen and Erasers Icon">
                   </q-img>
                 </q-carousel-slide>
         
               <q-carousel-slide name="layers" class="column no-wrap flex-center">
-                <q-icon name="layers" size="56px" />
+                <q-img :src="responsiveImg" class="iconImg" alt="Pencil, Pen and Erasers Icon">
+                  </q-img>
               
               </q-carousel-slide>
         
@@ -56,13 +59,17 @@
 
 
 <script>
-import image from '../assets/slideimage.png'
+import image from '../assets/slideimage.png';
+import wireframeImg from '../assets/wireframe.png';
+import responsiveImg from '../assets/responsive-design.png';
 export default {
   data() {
     return {
       slide: 'style',
       lorem: 'Lorem Ipsum asdasdas',
-      image: image
+      image: image,
+      wireframeImg: wireframeImg,
+      responsiveImg: responsiveImg
     }
   }
 }
@@ -77,9 +84,13 @@ export default {
 }
 
 .iconImg{
-  height: 169.86px;
-  width: 213.73px;
-  
+  // height: 169.86px;
+  // width: 213.73px;
+  // margin-left: 4rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
   
   
 }
