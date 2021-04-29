@@ -64,7 +64,7 @@
               navigation
               padding
               arrows
-              height="720px"
+              
               class="carousel"
               
 
@@ -184,6 +184,7 @@ export default {
   background-color: #80C2FF;
   border-radius: 50px;
   width: 95%;
+  height: 720px;
 }
 
 .iconImg{
@@ -486,7 +487,7 @@ export default {
   .carousel{
   background-color: #80C2FF;
   border-radius: 50px;
-  height: 500px!important;
+  height: 500px;
 }
 
   
@@ -545,7 +546,7 @@ export default {
   .carousel{
   background-color: #80C2FF;
   border-radius: 50px;
-  height: 420px!important;
+  height: 420px;
 }
 
 }
@@ -602,7 +603,7 @@ export default {
   .carousel{
   background-color: #80C2FF;
   border-radius: 50px;
-  height: 390px!important;
+  height: 390px;
 }
 
 }
