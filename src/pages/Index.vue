@@ -214,7 +214,7 @@ export default {
 }
 
 .cta-section{
-  padding: 3.5rem 0 2rem 9rem;
+  padding: 3.5rem 0 2rem 7rem;
 }
 
 
@@ -244,7 +244,7 @@ export default {
 .cta-button{
   margin-top: 2.4rem;
   background-color: #839EFF;
-  padding: .7rem 2.5rem;
+  padding: .7rem 4rem;
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -308,8 +308,8 @@ export default {
 
   .cta-button{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    // margin-left: auto;
+    // margin-right: auto;
     margin-top: 2.4rem;
     margin-bottom: 2rem;
     background-color: #839EFF;
@@ -360,6 +360,20 @@ export default {
   background-color: #80C2FF;
   border-radius: 50px;
   width: 97%;
+  }
+
+    .cta-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.4rem;
+    margin-bottom: 2rem;
+    background-color: #839EFF;
+    padding: .7rem 1.7rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    
   }
 
 
