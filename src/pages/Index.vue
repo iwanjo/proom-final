@@ -483,6 +483,11 @@ export default {
   border-radius: 50%;
   }
 
+  .carousel{
+  background-color: #80C2FF;
+  border-radius: 50px;
+  height: 500px!important;
+}
 
   
 }
@@ -537,6 +542,12 @@ export default {
   border-radius: 50%;
   }
 
+  .carousel{
+  background-color: #80C2FF;
+  border-radius: 50px;
+  height: 420px!important;
+}
+
 }
 
 @media screen and (max-width: 399px) {
@@ -587,6 +598,12 @@ export default {
   width: 24px;
   border-radius: 50%;
   }
+
+  .carousel{
+  background-color: #80C2FF;
+  border-radius: 50px;
+  height: 390px!important;
+}
 
 }
 
