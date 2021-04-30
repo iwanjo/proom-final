@@ -171,7 +171,10 @@ export default {
 .messageImg{
   width: 24px;
   margin-top: -.3rem;
+}
 
+.messageImg:hover{
+  cursor: pointer;
 }
 
 .userImg{
@@ -487,7 +490,7 @@ export default {
   .carousel{
   background-color: #80C2FF;
   border-radius: 50px;
-  height: 500px;
+  height: 500px!important;
 }
 
   
@@ -546,7 +549,7 @@ export default {
   .carousel{
   background-color: #80C2FF;
   border-radius: 50px;
-  height: 420px;
+  height: 420px!important;
 }
 
 }
@@ -603,7 +606,7 @@ export default {
   .carousel{
   background-color: #80C2FF;
   border-radius: 50px;
-  height: 390px;
+  height: 390px!important;
 }
 
 }
